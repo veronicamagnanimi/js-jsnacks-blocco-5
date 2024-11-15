@@ -27,3 +27,10 @@ zucchine.filter((curZucc) => {
 
 console.log(arrayMax);
 console.log(arrayRest);
+
+//Oppure
+
+const max = zucchine.filter (zucchina => zucchina.length >= 15);
+console.log(max);
+const min = zucchine.filter (zucchina => zucchina.length < 15);
+console.log(min);
