@@ -23,8 +23,7 @@ zucchine.filter((curZucc) => {
   } else {
     arrayRest.push(curZucc);
   }
-  
-})
+  })
 
 console.log(arrayMax);
 console.log(arrayRest);
